@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>BookStore</h1>
+    </div>
+    <div class="container">
+        <div class="bookcontain">
+            <h2 id="btitle">Rich</h2>
+            <h5 id="author">Nkuga</h5>
+            <p id="bookdetail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nemo explicabo vero ab earum enim tenetur quidem perferendis facere veritatis, beatae, mollitia consequuntur molestiae? Unde molestiae totam a nihil mollitia!Lorem good book Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis fuga dolores, libero enim, quo necessitatibus ipsam saepe placeat hic porro voluptatem voluptate nam explicabo minima. Eius officiis quisquam excepturi doloremque!</p>
+            <button id="delcontain" onclick="delcontain(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popupcontain">
+        
+    </div>
+    <!-- plus ah click panna varavendiya akal -->
+    <div class="popupbox">
+        <h2>Add Book</h2>
+        <form action="">
+            <input type="text" required placeholder="Book Title" id="booktitle" >
+            <input type="text" placeholder="Book Author" id="bookauthor" required>
+            <textarea  placeholder="Short Description" cols="40" rows="5" id="description"></textarea>
+            <button id="addbookbtn">ADD</button>
+            <button id="cancelbookbtn">CANCEL</button>
+        </form>
+    </div>
+    <button id="plus">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
